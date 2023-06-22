@@ -68,7 +68,7 @@ export class PXTExtension extends React.Component<{}, AppState> {
         return (
             <div className={`PXTExtension ${!target ? 'dimmable dimmed' : ''}`}>
                 {!isSupported ? <div>
-                    This extension is not supported in your browser
+                    This extension is not supported in your browser :(((((( (sad)
                 </div> : <App client={this.client} target={target} />}
             </div>
         );
